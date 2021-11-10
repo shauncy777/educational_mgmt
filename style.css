@@ -1,7 +1,7 @@
 .navbar-brand {
-    font-size: 50px;
+    font-size: 25px;
     font-style: italic;
-
+    display: flexbox;
 }
 
 .text-start{
@@ -25,4 +25,13 @@
     width: 2000px; 
     overflow: hidden; 
     
+}
+.logo-ul {
+    border: 1px ;
+    margin-top: 15px;
+    margin-left: -40px;
+    font-size: 22px;
+    line-height: 25px;
+    color: rgb(216, 179, 57);
+    list-style-type: none;
 }
