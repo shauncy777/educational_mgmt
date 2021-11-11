@@ -35,5 +35,10 @@
     color: rgb(216, 179, 57);
     list-style-type: none;
 }
+.d-inline-block {
+    
+    border: solid rgb(216, 179, 57) 5px;
+
+}
 
 
