@@ -8,6 +8,7 @@
 .navbar-brand {
     margin-left: -10px;
     display: flexbox;
+    padding: 10px;
 }
 .ITCKristenComNormal {
 	font-family: "ITCKristenCom-Normal";
@@ -36,10 +37,14 @@
 
 
 #hero-calc {
-    height: 1050px; 
-    width: 2300px; 
-    overflow: hidden;    
+    height: 1075px; 
+    width: 1800px; 
+    overflow: hidden; 
+     
 }
+
+
+
 
 .carousel-control-prev-icon {
     margin-bottom: -140px;
@@ -49,20 +54,37 @@
     margin-bottom: -140px;
 }
 
+ .mid {
+    text-align: left;
+
+}
+
+.text-end {
+    text-align: left !important;
+}
+
 .logo-ul {
     font-family: "ITCKristenCom-Normal";
     border: 1px ;
-    margin-top: 15px;
+    margin-top: 18px;
     margin-left: -40px;
-    font-size: 30px;
-    line-height: 39px;
+    font-size: 25px;
+    line-height: 35px;
     color: rgb(218, 182, 65);
     list-style-type: none;
 }
 
 .d-inline-block {
-    border: 5px solid rgb(218, 182, 65);
+    border: 3px solid rgb(218, 182, 65);
+    padding: 3px;
 }
 
-
+@media (max-width: 990px)  and (min-width: 768){
+        .col-md-7 {
+            flex: 0 0 auto;
+            width: 40;
+        }
+    }
+  
+  
 
